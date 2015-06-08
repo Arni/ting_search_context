@@ -521,7 +521,7 @@ function ting_search_context_get_nodes($context_id, $count = 5, $node_types = 'a
 		}
 		$query->condition($node_types_condition);
 	}
-
+  
 	// Fetch nodes with max rating.
 	$query_max = clone $query;
 	$query_max_result = $query_max->condition($nr_alias . '.rating', 10)
@@ -560,6 +560,7 @@ function ting_search_context_get_nodes($context_id, $count = 5, $node_types = 'a
 		}
 		// Else include all nodes.
 		else  {
+      $query_less_result = $query_less->execute();
 			foreach ($query_less_result as $record) {
 				$return[$record->nid] = node_load($record->nid);
 			}
