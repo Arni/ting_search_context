@@ -303,7 +303,6 @@ function ting_search_context_get_term_count($facets, $facet_name, $term_names = 
  *   
  * @return bolean
  *   True if ratio is exceeded.
- * 
  */
 function ting_search_context_evalute_condition($number_of_terms, $total_number, $pass_ratio) {
   if ($total_number != 0) {
