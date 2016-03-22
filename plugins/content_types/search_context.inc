@@ -26,7 +26,6 @@ function ting_search_context_search_context_content_type_render($subtype, $conf,
   if ($search_results) {
     module_load_include('search_context.inc', 'ting_search_context');
     $context_id = ting_search_context_calculate_context($search_results->facets, $search_results->numTotalObjects, $search_results->search_key);
-  file_put_contents("/home/quickstart/work/debug/debugsc8.txt", print_r($context_id , TRUE), FILE_APPEND);
     // Get position setting.
     $position = variable_get('ting_search_context_position', 'js-below-search-result');
 
