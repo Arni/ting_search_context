@@ -46,7 +46,7 @@ function ting_search_context_calculate_context(array $facets, $num_total_objects
     }
   }
   $subject_contexts = array();
-  $system_context;
+  //$system_context;
   foreach ($contexts as $context) {
     if ($system_type == $context->context && $context->type == 'subject') {
       $subject_contexts[] = $context;
