@@ -1,0 +1,527 @@
+# $Id$
+#
+# Danish translation of Drupal (general)
+# Generated from files:
+#  ting_search_context.admin.inc: n/a
+#  ting_search_context.module: n/a
+#  ting_search_context.views.inc: n/a
+#  ting_search_context.views_default.inc: n/a
+#  ting_search_context.features.field_instance.inc: n/a
+#  ting_search_context.features.inc: n/a
+#  ting_search_context.info: n/a
+#  ting_search_context.install: n/a
+#
+
+#: ting_search_context.admin.inc:14
+msgid "The rate nodes view wasn't found"
+msgstr "Rate nodes viewet blev ikke fundet"
+
+#: ting_search_context.admin.inc:48 ting_search_context.module:64
+msgid "Add context"
+msgstr "Tilføj kontekst"
+
+#: ting_search_context.admin.inc:57
+msgid "Context type"
+msgstr "Kontekst type"
+
+#: ting_search_context.admin.inc:58
+msgid "Select the type of context to create"
+msgstr "Vælg typen af kontext du ønsker at oprette"
+
+#: ting_search_context.admin.inc:65 ting_search_context.views.inc:90
+msgid "Name"
+msgstr "Navn"
+
+#: ting_search_context.admin.inc:66
+msgid "Enter the name of the context"
+msgstr "Skriv navnet på konteksten"
+
+#: ting_search_context.admin.inc:74 ting_search_context.views_default.inc:246
+msgid "Search string"
+msgstr "Søge streng"
+
+#: ting_search_context.admin.inc:75
+msgid "Enter the search string"
+msgstr "Skriv søge strengen"
+
+#: ting_search_context.admin.inc:89
+msgid "Parent context"
+msgstr "Forældre kontekst"
+
+#: ting_search_context.admin.inc:90
+msgid "Select the parent context"
+msgstr "Vælg forældre kontekst"
+
+#: ting_search_context.admin.inc:92 ting_search_context.module:1119
+msgid "Adult nonfiction"
+msgstr "Voksen fag"
+
+#: ting_search_context.admin.inc:93 ting_search_context.module:1123
+msgid "Adult fiction"
+msgstr "Voksen skøn"
+
+#: ting_search_context.admin.inc:94 ting_search_context.module:1127
+msgid "Children nonfiction"
+msgstr "Børn fag"
+
+#: ting_search_context.admin.inc:95 ting_search_context.module:1131
+msgid "Children fiction"
+msgstr "Børn skøn"
+
+#: ting_search_context.admin.inc:106 ting_search_context.views.inc:125 ting_search_context.views_default.inc:244
+msgid "Subjects"
+msgstr "Emneord"
+
+#: ting_search_context.admin.inc:107
+msgid "Enter the subjects seperated by commas"
+msgstr "Skriv emneordene separeret med komma"
+
+#: ting_search_context.admin.inc:124;562
+msgid "Save"
+msgstr "Gem"
+
+#: ting_search_context.admin.inc:131
+msgid "Delete"
+msgstr "Slet"
+
+#: ting_search_context.admin.inc:137
+msgid "Back"
+msgstr "Tilbage"
+
+#: ting_search_context.admin.inc:167
+msgid "An identical seach string context already exists: %context"
+msgstr "En identisk søgestreng findes allerede: %context "
+
+#: ting_search_context.admin.inc:212
+msgid "Subjects should only contain alpanumeric characters, whitespaces and dashes. (%subjects)"
+msgstr "Emneord må kun indholde bogstaver, tal, mellemrum og streger"
+
+#: ting_search_context.admin.inc:219
+msgid "There's duplicate subjects (%subjects)"
+msgstr "Emneordene er duplikeret (%subjects)"
+
+#: ting_search_context.admin.inc:233
+msgid "An identical subject context already exists: %identical"
+msgstr "En identisk emne kontekst findes allerede: %identical"
+
+#: ting_search_context.admin.inc:293
+msgid "Context saved"
+msgstr "Kontekst gemt"
+
+#: ting_search_context.admin.inc:296
+msgid "Something went wrong !op %context."
+msgstr "Noget gik galt !op %context."
+
+#: ting_search_context.admin.inc:346
+msgid "Are you sure you want to delete %context?"
+msgstr "Er dui sikker på at du vil slette kontekst"
+
+#: ting_search_context.admin.inc:349
+msgid "delete"
+msgstr "slet"
+
+#: ting_search_context.admin.inc:350
+msgid "cancel"
+msgstr "fortryd"
+
+#: ting_search_context.admin.inc:362
+msgid "Context %context and !ratings deleted"
+msgstr "Kontekst %context og !ratings slettet"
+
+#: ting_search_context.admin.inc:371
+msgid "Something went wrong deleting %context. See log for further details"
+msgstr "Noget gik galt ved sletning af %context. Tjek loggen for flere detaljer"
+
+#: ting_search_context.admin.inc:385
+msgid "Settings for the Ting Search Context Module"
+msgstr "Indstillinger for Ting Search Context modulet"
+
+#: ting_search_context.admin.inc:390
+msgid "Position"
+msgstr "Placering"
+
+#: ting_search_context.admin.inc:391
+msgid "Select the position of related content on the search page. On small screens related content is always displayed at the bottom of the page."
+msgstr "Vælg position for visning af relateret indhold. På små skærme er relateret indhold altid vist nederst på siden"
+
+#: ting_search_context.admin.inc:398
+msgid "Pass ratio"
+msgstr "Forholdstal"
+
+#: ting_search_context.admin.inc:399
+msgid "The ratio of search results needed to qualify as a context. If no context qualifies the search is put in the neutral context. Minimum 0.5. Maximum 1.0."
+msgstr "Forholdet af søgeresultater som falder i en bestemt kategori for at blive kvalificeret som et kontext. F.eks. antal børnmaterialer i forhold til voksen materialer. Hvis der ikke er noget kontext som opnår det nødvendige forholdstal så bliver kontekstet sat til neutralt kontekst. Minimum 0.5. Maximum 1.0."
+
+#: ting_search_context.admin.inc:405
+msgid "Audio types"
+msgstr "Lydbog typer"
+
+#: ting_search_context.admin.inc:406
+msgid "Definition of audio types. Seperated by comma"
+msgstr "Definition af lydbog typer. Separeret med komma"
+
+#: ting_search_context.admin.inc:411
+msgid "Film types"
+msgstr "Film typer"
+
+#: ting_search_context.admin.inc:412
+msgid "Definition of film types. Seperated by comma"
+msgstr "Definition af film typer. Separeret med komma"
+
+#: ting_search_context.admin.inc:417
+msgid "Music types"
+msgstr "Musik typer"
+
+#: ting_search_context.admin.inc:418
+msgid "Definition of music types. Seperated by comma"
+msgstr "Definition af musik typer. Separeret med komma"
+
+#: ting_search_context.admin.inc:449 ting_search_context.module:46
+msgid "Fallback images"
+msgstr "Fallback billeder"
+
+#: ting_search_context.admin.inc:450
+msgid "Used when displaying rated nodes without an image."
+msgstr "Brugt når der vises noder uden et billede"
+
+#: ting_search_context.admin.inc:457
+msgid "Upload new image"
+msgstr "Upload nyt billede"
+
+#: ting_search_context.admin.inc:473
+msgid "Existing images"
+msgstr "Eksisterende billeder"
+
+#: ting_search_context.admin.inc:481
+msgid "Image !count"
+msgstr "Billede !count"
+
+#: ting_search_context.admin.inc:523
+msgid "Fallback image @image was uploaded and saved."
+msgstr "Fallback billede @image blev uploadet og gemt"
+
+#: ting_search_context.admin.inc:558
+msgid "Cancel"
+msgstr "Annullér"
+
+#: ting_search_context.admin.inc:602
+msgid "Fallback image @image was deleted."
+msgstr "Fallback billede @image blev slettet"
+
+#: ting_search_context.admin.inc:340
+msgid "This action cannot be undone and will delete 1 associated rating."
+msgid_plural "This action cannot be undone and will delete @count associated ratings."
+msgstr[0] "Denne her handling kan ikke fortrydes og vil slette 1 associeret rating"
+msgstr[1] "Denne her handling kan ikke fortrydes og vil slette @count associeret ratinger"
+
+#: ting_search_context.admin.inc:364
+msgid "1 associated rating"
+msgid_plural "@count associated ratings"
+msgstr[0] "1 associeret rating"
+msgstr[1] "@count associeret ratinger"
+
+#: ting_search_context.features.field_instance.inc:149
+msgid "Link"
+msgstr "Link"
+
+#: ting_search_context.features.field_instance.inc:150
+msgid "List image"
+msgstr "List billede"
+
+#: ting_search_context.features.field_instance.inc:151
+msgid "Requires af valid url. Either \"http:// ..\" or \"/foo/bar..\". System urls \"node/10..\" are not valid"
+msgstr "Kræver en valid url: Enten \"http:// ..\" eller \"/foo/bar..\" System urler \"node/10..\" er ikke valide"
+
+#: ting_search_context.features.inc:29
+msgid "Search Context Link"
+msgstr "Søge kontekst link"
+
+#: ting_search_context.features.inc:33 ting_search_context.views_default.inc:746
+msgid "Titel"
+msgstr "Titel"
+
+#: ting_search_context.views.inc:20;41 ting_search_context.info:0
+msgid "Ting search context"
+msgstr "Ting søgekontekst"
+
+#: ting_search_context.views.inc:23
+msgid "Ting search context contexts"
+msgstr "Ting søgekontekst kontekster""
+
+#: ting_search_context.views.inc:24
+msgid "Search contexts from the Ting search context module"
+msgstr "Søgekontexter fra Ting search context modulet"
+
+#: ting_search_context.views.inc:52;155
+msgid "Context ID"
+msgstr "Kontekst ID"
+
+#: ting_search_context.views.inc:53
+msgid "The ID of the context"
+msgstr "ID for konteksten"
+
+#: ting_search_context.views.inc:72 ting_search_context.views_default.inc:243;747
+msgid "Type"
+msgstr "Type"
+
+#: ting_search_context.views.inc:73
+msgid "The context type (system, search or subject)"
+msgstr "Kontext type: (system, søge eller emne)"
+
+#: ting_search_context.views.inc:91
+msgid "The human-readable name of the context"
+msgstr "Human-readble navn for konteksten"
+
+#: ting_search_context.views.inc:107 ting_search_context.module:459
+msgid "Context"
+msgstr "Kontekst"
+
+#: ting_search_context.views.inc:108
+msgid "The machine-name of the context"
+msgstr "Maskinvavn for konteksten"
+
+#: ting_search_context.views.inc:126
+msgid "The subjects of the context"
+msgstr "Emnene for konteksten"
+
+#: ting_search_context.views.inc:139
+msgid "Search"
+msgstr "Søg"
+
+#: ting_search_context.views.inc:140
+msgid "The search string of the context"
+msgstr "Søgestrengen for konteksten"
+
+#: ting_search_context.views.inc:156
+msgid "The ID of the rated context"
+msgstr "Id'en for konteksten"
+
+#: ting_search_context.views.inc:175
+msgid "Node ID"
+msgstr "Indholdselement ID"
+
+#: ting_search_context.views.inc:176
+msgid "The ID of the rated node"
+msgstr "ID'en for noden som er rated"
+
+#: ting_search_context.views.inc:195 ting_search_context.module:460
+msgid "Rating"
+msgstr "Rating"
+
+#: ting_search_context.views.inc:196
+msgid "The rating-number of the rating"
+msgstr "Rating nummeret for ratingen"
+
+#: ting_search_context.views.inc:227
+msgid "Node ratings"
+msgstr "Node ratings"
+
+#: ting_search_context.views.inc:228
+msgid "Associates ratings with nodes"
+msgstr "Associerede ratings til noder"
+
+#: ting_search_context.views.inc:230
+msgid "All ratings"
+msgstr "Alle ratings"
+
+#: ting_search_context.views.inc:231
+msgid "Display all ratings associated with a node"
+msgstr "Vis alle ratings associeret med en node"
+
+#: ting_search_context.views.inc:236 ting_search_context.views_default.inc:753
+msgid "Rating filter"
+msgstr "Rating filter"
+
+#: ting_search_context.views.inc:237
+msgid "Filter to only display content rated in selected contexts"
+msgstr "Filter til at kun vise kontent i valgte kontekster"
+
+#: ting_search_context.module:156
+msgid "Administer ratings"
+msgstr "Administer ratings"
+
+#: ting_search_context.module:157
+msgid "Rate and unrate nodes in search contexts."
+msgstr "Rate and unrate nodes in søge kontekster"
+
+#: ting_search_context.module:160
+msgid "Administer ting search context"
+msgstr "Administrer ting search context"
+
+#: ting_search_context.module:161
+msgid "Administer contexts and settings for Ting search context."
+msgstr "Administrer kontekster og settings for Ting search context."
+
+#: ting_search_context.module:326
+msgid "Rate a node in the search context rating system"
+msgstr "Rate node in søgekontekst ratings system"
+
+#: ting_search_context.module:333
+msgid "Unrate a node in the search context rating system (completely)"
+msgstr "Unrate node in søgekontekst ratings system (fuldstændigt)"
+
+#: ting_search_context.module:352
+msgid "Rated %node in %context with a rating of %rating"
+msgstr "Rated %node i %context med rating af %rating"
+
+#: ting_search_context.module:394
+msgid "Selection method"
+msgstr "Valg metode"
+
+#: ting_search_context.module:396
+msgid "Selection"
+msgstr "Valg"
+
+#: ting_search_context.module:396
+msgid "Autocomplete"
+msgstr "Autofuldfør"
+
+#: ting_search_context.module:401
+msgid "- Choose a context -"
+msgstr "- Vælg kontekst -"
+
+#: ting_search_context.module:414
+msgid "Search for a context"
+msgstr "Søg efter kontekst"
+
+#: ting_search_context.module:429
+msgid "- Choose a rating -"
+msgstr "- Vælg rating -"
+
+#: ting_search_context.module:441
+msgid "In what degree (rating):"
+msgstr "I hvilken grad (rating)"
+
+#: ting_search_context.module:450
+msgid "Does the following content:"
+msgstr "Er følgende indhold:"
+
+#: ting_search_context.module:454
+msgid "Relate to (select a context) :"
+msgstr "Relateret til (vælg kontekst) :"
+
+#: ting_search_context.module:493
+msgid "No context found for: %name"
+msgstr "Inget kontekst fundet for: %name"
+
+#: ting_search_context.module:570
+msgid "You selected the following content:"
+msgstr "Du valgt følgende kontekst"
+
+#: ting_search_context.module:576
+msgid "To be rated in the context: %context"
+msgstr "Vil blive rated i følgende kontekst: %context"
+
+#: ting_search_context.module:583
+msgid "With a rating of: %rating"
+msgstr "Med rating af: %rating"
+
+#: ting_search_context.module:610
+msgid "The following ratings will be removed:"
+msgstr "Følgende ratings vil blive fjernet"
+
+#: ting_search_context.module:1080
+msgid "Below search result"
+msgstr "Under søgeresultaterne"
+
+#: ting_search_context.module:1081
+msgid "Below facets"
+msgstr "Under faceterne"
+
+#: ting_search_context.module:1082
+msgid "Above search result"
+msgstr "Over søgeresultaterne"
+
+#: ting_search_context.module:1091
+msgid "System context"
+msgstr "System kontekst"
+
+#: ting_search_context.module:1092
+msgid "Subject context"
+msgstr "Emne kontekst"
+
+#: ting_search_context.module:1093
+msgid "Search string context"
+msgstr "Søgestreng kontekst"
+
+#: ting_search_context.module:1107
+msgid "Movie"
+msgstr "Film"
+
+#: ting_search_context.module:1111
+msgid "Music"
+msgstr "Musik"
+
+#: ting_search_context.module:1115
+msgid "Audio books"
+msgstr "Lydbøber"
+
+#: ting_search_context.module:1135
+msgid "Neutral"
+msgstr "Neutral"
+
+#: ting_search_context.module:367
+msgid "Unrated %node. 1 rating was deleted."
+msgid_plural "Unrated %node. @count ratings was deleted."
+msgstr[0] "Unratede %node. 1 rating blev slettet"
+msgstr[1] "Unratede %node. @count ratings blev slettet"
+
+#: ting_search_context.module:17;32
+msgid "Search context"
+msgstr "Søge kontekst"
+
+#: ting_search_context.module:18
+msgid "Manage the state of the context rating system."
+msgstr "Styr tilstanden for kontekst rating systemet"
+
+#: ting_search_context.module:25
+msgid "Show content related to search context in carousel"
+msgstr "Vis kontent relateret til søgekontekst i karasuel"
+
+#: ting_search_context.module:33
+msgid "Manage settings for the Ting search context module."
+msgstr "Håndter indstillinger for Ting search context modulet"
+
+#: ting_search_context.module:40
+msgid "Frontend"
+msgstr "Frontend"
+
+#: ting_search_context.module:41
+msgid "Choose location of related content on search page"
+msgstr "Vælg lokation af relateret kontent på søgesiden"
+
+#: ting_search_context.module:47
+msgid "Select which images to use when showing rated content."
+msgstr "Vælg hvilke billeder skal bruges når ratet kontent vises"
+
+#: ting_search_context.module:56
+msgid "Contexts"
+msgstr "Kontekster"
+
+#: ting_search_context.module:57
+msgid "Create new contexts and edit/delete existing ones"
+msgstr "Opret nye kontekster eller rediger/slet eksisterende kontekster"
+
+#: ting_search_context.module:65
+msgid "Add a new subject or search type context to the system"
+msgstr "Tilføje en ny emne eller søge kontekst til systemet"
+
+#: ting_search_context.module:73
+msgid "Edit context"
+msgstr "Rediger kontekst"
+
+#: ting_search_context.module:74
+msgid "Edit an existing subject or search type context"
+msgstr "Rediger et eksisterende emne eller søge kontekst"
+
+#: ting_search_context.module:81
+msgid "Delete context"
+msgstr "Slet kontekst"
+
+#: ting_search_context.module:82
+msgid "Delete a subject or search type context"
+msgstr "Slet emne eller søge kontekst"
+
+#: ting_search_context.module:89
+msgid "Context autocomplete"
+msgstr "Kontekst autocomplete"
