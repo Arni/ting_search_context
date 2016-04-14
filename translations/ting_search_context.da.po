@@ -1,6 +1,7 @@
 # $Id$
 #
 # Danish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  ting_search_context.admin.inc: n/a
 #  ting_search_context.module: n/a
@@ -11,6 +12,18 @@
 #  ting_search_context.info: n/a
 #  ting_search_context.install: n/a
 #
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-04-07 14:30+0200\n"
+"PO-Revision-Date: 2016-04-07 14:30+0200\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Danish <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: ting_search_context.admin.inc:14
 msgid "The rate nodes view wasn't found"
@@ -114,7 +127,7 @@ msgstr "Noget gik galt !op %context."
 
 #: ting_search_context.admin.inc:346
 msgid "Are you sure you want to delete %context?"
-msgstr "Er dui sikker på at du vil slette kontekst"
+msgstr "Er du sikker på at du vil slette kontekst"
 
 #: ting_search_context.admin.inc:349
 msgid "delete"
@@ -246,7 +259,7 @@ msgstr "Ting søgekontekst"
 
 #: ting_search_context.views.inc:23
 msgid "Ting search context contexts"
-msgstr "Ting søgekontekst kontekster""
+msgstr "Ting søgekontekst kontekster"
 
 #: ting_search_context.views.inc:24
 msgid "Search contexts from the Ting search context module"
