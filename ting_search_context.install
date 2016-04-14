@@ -248,3 +248,11 @@ function ting_search_context_update_7002() {
     }
   }
 }
+
+function ting_search_context_update_7003() {
+
+  $system_context = array('name' => 'Neutral', 'context' => 'neutral', 'type' => 'system');
+    $context_id = db_insert('ting_search_context_contexts')
+      ->fields($system_context)
+      ->execute();
+}
