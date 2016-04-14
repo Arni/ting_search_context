@@ -215,7 +215,7 @@ function ting_search_context_disable() {
  * Convert existing context machine names (and title for system contexts) to
  * english.
  */
-function ting_search_context_update_7000() {
+function ting_search_context_update_7002() {
   // Ignore search contexts and the neutral context.
   $contexts = db_select('ting_search_context_contexts', 'tsc')
     ->fields('tsc', array('context_id', 'name', 'context', 'type'))

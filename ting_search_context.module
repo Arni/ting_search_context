@@ -1209,3 +1209,13 @@ function _ting_search_context_add_css() {
   $path = drupal_get_path('module', 'ting_search_context');
   drupal_add_css($path . '/css/ting_search_context.base.css');
 }
+
+
+/**
+ * Implements hook_field_is_empty().
+ *
+ * Band aid to avoid problem with old field which hinder update of nodes.
+ */
+function ting_search_context_field_is_empty($item, $field) {
+       return FALSE;
+}
